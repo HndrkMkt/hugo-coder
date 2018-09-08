@@ -16,8 +16,8 @@ body {
 	font-family: 'Fira Mono', monospace;
 	font-size: 1.6em;
 	font-weight: 400;
-	letter-spacing: 0.0625em;
   line-height: 1.8em;
+  text-align: justify;
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     font-size: 1.4em;
     line-height: 1.6em;
@@ -116,6 +116,7 @@ code {
   background-color: $alt-fg-color;
   color: $bg-color;
   padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+  text-align: left;
 }
 
 blockquote {
